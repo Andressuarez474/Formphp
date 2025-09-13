@@ -7,4 +7,5 @@ $salario = $_POST['salario'];
 echo "<h2>Informacion recibida</h2>"; 
 echo "El empleado $nombre tiene $edad años.<br>";
 echo "Vive en $direccion y su salario es: $salario.";
+echo "Su correo es $correo y el cargo que ocupa es: $cargo.";
 ?>
