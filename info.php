@@ -3,6 +3,8 @@ $nombre = $_POST['nombre'];
 $edad = $_POST['edad'];
 $direccion = $_POST['direccion'];
 $salario = $_POST['salario'];
+$correo = $_POST['correo'];
+$cargo = $_POST['cargo'];
 
 echo "<h2>Informacion recibida</h2>"; 
 echo "El empleado $nombre tiene $edad años.<br>";
